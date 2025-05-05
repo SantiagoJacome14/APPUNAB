@@ -1,0 +1,194 @@
+<svg viewBox="0 0 1024 768" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fondo principal - usando fondo claro UNAB -->
+    <rect width="1024" height="768" fill="#ffffff"/>
+    
+    <!-- Panel superior / Encabezado - usando color nuevo #8c0040 -->
+    <rect width="1024" height="60" fill="#8c0040"/>
+    
+    <!-- Logotipo de la UNAB (versión exacta mostrada en la imagen) -->
+    <g transform="translate(10, 5) scale(0.45)">
+        <!-- Fondo cuadrado para logotipo -->
+        <rect width="100" height="100" rx="15" fill="#8c0040"/>
+        <!-- Icono de casa/edificio blanco -->
+        <path d="M50,20 L20,40 L80,40 Z" fill="white"/> <!-- Techo -->
+        <rect x="35" y="40" width="30" height="25" fill="white"/> <!-- Edificio superior -->
+        <rect x="40" y="50" width="8" height="8" rx="4" fill="#8c0040"/> <!-- Ventana izquierda -->
+        <rect x="52" y="50" width="8" height="8" rx="4" fill="#8c0040"/> <!-- Ventana derecha-->
+        <rect x="25" y="65" width="15" height="25" fill="white"/> <!-- Pilar izquierdo -->
+        <rect x="60" y="65" width="15" height="25" fill="white"/> <!-- Pilar derecho -->
+    </g>
+    
+    <!-- Texto del encabezado -->
+    <text x="110" y="38" font-family="Arial" font-size="24" font-weight="bold" fill="white">APUTrack</text>
+    <text x="850" y="25" font-family="Arial" font-size="14" fill="white">Usuario: Santiago Jacome</text>
+    <text x="850" y="45" font-family="Arial" font-size="14" fill="white">APUNAB Total: 230</text>
+    <text x="720" y="45" font-family="Arial" font-size="14" fill="white">APUNAB Restantes: 70</text>
+    <rect x="940" y="15" width="70" height="30" rx="4" fill="#8c0040" stroke="white"/>
+    <text x="947" y="35" font-family="Arial" font-size="12" fill="white">Cerrar sesión</text>
+    
+    <!-- Panel de menú lateral - usando nuevo color #8c0040 -->
+    <rect x="0" y="60" width="200" height="708" fill="#8c0040"/>
+    
+    <!-- Botones de menú -->
+    <g>
+        <rect x="0" y="60" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="90" font-family="Arial" font-size="14" fill="white">Inicio</text>
+        <circle cx="25" cy="85" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="110" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="140" font-family="Arial" font-size="14" fill="white">Mi perfil</text>
+        <circle cx="25" cy="135" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="160" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="190" font-family="Arial" font-size="14" fill="white">Registrador APUNAB</text>
+        <circle cx="25" cy="185" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="210" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="240" font-family="Arial" font-size="14" fill="white">Mis actividades</text>
+        <circle cx="25" cy="235" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="260" width="200" height="50" fill="#700033"/>
+        <text x="50" y="290" font-family="Arial" font-size="14" fill="white">Ranking</text>
+        <circle cx="25" cy="285" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="310" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="340" font-family="Arial" font-size="14" fill="white">Metas</text>
+        <circle cx="25" cy="335" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="360" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="390" font-family="Arial" font-size="14" fill="white">Reportes</text>
+        <circle cx="25" cy="385" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="410" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="440" font-family="Arial" font-size="14" fill="white">Configuración</text>
+        <circle cx="25" cy="435" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <!-- Panel de contenido principal -->
+    <rect x="200" y="60" width="824" height="708" fill="white"/>
+    
+    <!-- Título del panel -->
+    <text x="230" y="100" font-family="Arial" font-size="24" font-weight="bold" fill="#8c0040">Ranking</text>
+    
+    <!-- Barra de filtros -->
+    <rect x="230" y="120" width="780" height="60" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="250" y="155" font-family="Arial" font-size="14" fill="#333">Filtrar por:</text>
+    
+    <!-- Desplegable de facultad -->
+    <rect x="330" y="135" width="140" height="30" rx="4" fill="white" stroke="#e0e0e0"/>
+    <text x="340" y="155" font-family="Arial" font-size="12" fill="#555">Facultad</text>
+    <text x="450" y="155" font-family="Arial" font-size="14" fill="#333">▼</text>
+    
+    <!-- Desplegable de periodo -->
+    <rect x="490" y="135" width="140" height="30" rx="4" fill="white" stroke="#e0e0e0"/>
+    <text x="500" y="155" font-family="Arial" font-size="12" fill="#555">Periodo</text>
+    <text x="610" y="155" font-family="Arial" font-size="14" fill="#333">▼</text>
+    
+    <!-- Campo de búsqueda -->
+    <rect x="650" y="135" width="220" height="30" rx="4" fill="white" stroke="#e0e0e0"/>
+    <text x="660" y="155" font-family="Arial" font-size="12" fill="#999">Buscar estudiante...</text>
+    
+    <!-- Botón de búsqueda -->
+    <rect x="880" y="135" width="80" height="30" rx="4" fill="#8c0040"/>
+    <text x="900" y="155" font-family="Arial" font-size="12" fill="white">Buscar</text>
+    
+    <!-- Pestañas -->
+    <rect x="230" y="195" width="180" height="40" rx="4" fill="#8c0040"/>
+    <text x="280" y="220" font-family="Arial" font-size="14" fill="white">General</text>
+    
+    <rect x="410" y="195" width="180" height="40" rx="4" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="445" y="220" font-family="Arial" font-size="14" fill="#555">Por actividad</text>
+    
+    <rect x="590" y="195" width="180" height="40" rx="4" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="630" y="220" font-family="Arial" font-size="14" fill="#555">Por facultad</text>
+    
+    <!-- Podio de ganadores -->
+    <g transform="translate(520, 300)">
+        <!-- Segundo lugar -->
+        <rect x="-120" y="-40" width="80" height="100" rx="8" fill="#E0E0E0"/>
+        <circle cx="-80" cy="-60" r="25" fill="#C0C0C0" stroke="#8c0040" stroke-width="2"/>
+        <text x="-80" y="-55" font-family="Arial" font-size="16" font-weight="bold" fill="#555" text-anchor="middle">2</text>
+        <text x="-80" y="0" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">Ana García</text>
+        <text x="-80" y="20" font-family="Arial" font-size="12" fill="#8c0040" text-anchor="middle">350 APUNAB</text>
+        
+        <!-- Primer lugar -->
+        <rect x="-20" y="-60" width="80" height="120" rx="8" fill="#FFD700" opacity="0.6"/>
+        <circle cx="20" cy="-80" r="30" fill="#FFD700" stroke="#8c0040" stroke-width="2"/>
+        <text x="20" y="-75" font-family="Arial" font-size="18" font-weight="bold" fill="#333" text-anchor="middle">1</text>
+        <text x="20" y="0" font-family="Arial" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Carlos López</text>
+        <text x="20" y="20" font-family="Arial" font-size="14" font-weight="bold" fill="#8c0040" text-anchor="middle">420 APUNAB</text>
+        
+        <!-- Tercer lugar -->
+        <rect x="80" y="-30" width="80" height="90" rx="8" fill="#CD7F32" opacity="0.6"/>
+        <circle cx="120" cy="-50" r="20" fill="#CD7F32" stroke="#8c0040" stroke-width="2"/>
+        <text x="120" y="-45" font-family="Arial" font-size="14" font-weight="bold" fill="#555" text-anchor="middle">3</text>
+        <text x="120" y="0" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">Luis Torres</text>
+        <text x="120" y="20" font-family="Arial" font-size="12" fill="#8c0040" text-anchor="middle">320 APUNAB</text>
+    </g>
+    
+    <!-- Tabla de ranking -->
+    <rect x="230" y="420" width="780" height="40" rx="4" fill="#8c0040"/>
+    <text x="250" y="445" font-family="Arial" font-size="14" font-weight="bold" fill="white">Posición</text>
+    <text x="340" y="445" font-family="Arial" font-size="14" font-weight="bold" fill="white">Estudiante</text>
+    <text x="540" y="445" font-family="Arial" font-size="14" font-weight="bold" fill="white">Facultad</text>
+    <text x="740" y="445" font-family="Arial" font-size="14" font-weight="bold" fill="white">APUNAB</text>
+    <text x="880" y="445" font-family="Arial" font-size="14" font-weight="bold" fill="white">Tendencia</text>
+    
+    <!-- Fila de ranking del usuario actual -->
+    <rect x="230" y="500" width="780" height="50" rx="4" fill="#fff0f5"/>
+    <rect x="230" y="500" width="5" height="50" rx="2" fill="#8c0040"/>
+    <text x="260" y="530" font-family="Arial" font-size="14" font-weight="bold" fill="#8c0040">5</text>
+    <text x="340" y="530" font-family="Arial" font-size="14" font-weight="bold" fill="#8c0040">Santiago Jacome</text>
+    <text x="540" y="530" font-family="Arial" font-size="14" fill="#8c0040">Ingeniería</text>
+    <text x="740" y="530" font-family="Arial" font-size="14" font-weight="bold" fill="#8c0040">230</text>
+    <text x="880" y="530" font-family="Arial" font-size="14" fill="#4CAF50">▲ 2</text>
+    
+    <!-- Filas de ranking normales -->
+    <rect x="230" y="460" width="780" height="40" rx="4" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="260" y="485" font-family="Arial" font-size="14" fill="#333">4</text>
+    <text x="340" y="485" font-family="Arial" font-size="14" fill="#333">Valentina Mora</text>
+    <text x="540" y="485" font-family="Arial" font-size="14" fill="#555">Medicina</text>
+    <text x="740" y="485" font-family="Arial" font-size="14" fill="#333">245</text>
+    <text x="880" y="485" font-family="Arial" font-size="14" fill="#4CAF50">▲ 1</text>
+    
+    <rect x="230" y="550" width="780" height="40" rx="4" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="260" y="575" font-family="Arial" font-size="14" fill="#333">6</text>
+    <text x="340" y="575" font-family="Arial" font-size="14" fill="#333">Andrés Mendoza</text>
+    <text x="540" y="575" font-family="Arial" font-size="14" fill="#555">Derecho</text>
+    <text x="740" y="575" font-family="Arial" font-size="14" fill="#333">218</text>
+    <text x="880" y="575" font-family="Arial" font-size="14" fill="#F44336">▼ 1</text>
+    
+    <rect x="230" y="590" width="780" height="40" rx="4" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="260" y="615" font-family="Arial" font-size="14" fill="#333">7</text>
+    <text x="340" y="615" font-family="Arial" font-size="14" fill="#333">Sofía Ramírez</text>
+    <text x="540" y="615" font-family="Arial" font-size="14" fill="#555">Arquitectura</text>
+    <text x="740" y="615" font-family="Arial" font-size="14" fill="#333">205</text>
+    <text x="880" y="615" font-family="Arial" font-size="14" fill="#F44336">▼ 2</text>
+    
+    <!-- Paginación -->
+    <rect x="500" y="650" width="240" height="40" rx="4" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <rect x="520" y="660" width="30" height="20" rx="4" fill="white" stroke="#e0e0e0"/>
+    <text x="530" y="675" font-family="Arial" font-size="12" fill="#555">◀</text>
+    <rect x="560" y="660" width="30" height="20" rx="4" fill="#8c0040"/>
+    <text x="570" y="675" font-family="Arial" font-size="12" fill="white">1</text>
+    <rect x="600" y="660" width="30" height="20" rx="4" fill="white" stroke="#e0e0e0"/>
+    <text x="610" y="675" font-family="Arial" font-size="12" fill="#555">2</text>
+    <rect x="640" y="660" width="30" height="20" rx="4" fill="white" stroke="#e0e0e0"/>
+    <text x="650" y="675" font-family="Arial" font-size="12" fill="#555">3</text>
+    <rect x="680" y="660" width="30" height="20" rx="4" fill="white" stroke="#e0e0e0"/>
+    <text x="690" y="675" font-family="Arial" font-size="12" fill="#555">▶</text>
+</svg>
