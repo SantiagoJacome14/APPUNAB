@@ -1,0 +1,170 @@
+<svg viewBox="0 0 1024 768" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fondo principal - usando fondo claro UNAB -->
+    <rect width="1024" height="768" fill="#ffffff"/>
+    
+    <!-- Panel superior / Encabezado - usando color nuevo #8c0040 -->
+    <rect width="1024" height="60" fill="#8c0040"/>
+    
+    <!-- Logotipo de la UNAB (versión exacta mostrada en la imagen) -->
+    <g transform="translate(10, 5) scale(0.45)">
+        <!-- Fondo cuadrado para logotipo -->
+        <rect width="100" height="100" rx="15" fill="#8c0040"/>
+        <!-- Icono de casa/edificio blanco -->
+        <path d="M50,20 L20,40 L80,40 Z" fill="white"/> <!-- Techo -->
+        <rect x="35" y="40" width="30" height="25" fill="white"/> <!-- Edificio superior -->
+        <rect x="40" y="50" width="8" height="8" rx="4" fill="#8c0040"/> <!-- Ventana izquierda -->
+        <rect x="52" y="50" width="8" height="8" rx="4" fill="#8c0040"/> <!-- Ventana derecha-->
+        <rect x="25" y="65" width="15" height="25" fill="white"/> <!-- Pilar izquierdo -->
+        <rect x="60" y="65" width="15" height="25" fill="white"/> <!-- Pilar derecho -->
+    </g>
+    
+    <!-- Texto del encabezado -->
+    <text x="110" y="38" font-family="Arial" font-size="24" font-weight="bold" fill="white">APUTrack</text>
+    <text x="850" y="25" font-family="Arial" font-size="14" fill="white">Usuario: Santiago Jacome</text>
+    <text x="850" y="45" font-family="Arial" font-size="14" fill="white">APUNAB Total: 230</text>
+    <text x="720" y="45" font-family="Arial" font-size="14" fill="white">APUNAB Restantes: 70</text>
+    <rect x="940" y="15" width="70" height="30" rx="4" fill="#8c0040" stroke="white"/>
+    <text x="947" y="35" font-family="Arial" font-size="12" fill="white">Cerrar sesión</text>
+    
+    <!-- Panel de menú lateral - usando nuevo color #8c0040 -->
+    <rect x="0" y="60" width="200" height="708" fill="#8c0040"/>
+    
+    <!-- Botones de menú -->
+    <g>
+        <rect x="0" y="60" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="90" font-family="Arial" font-size="14" fill="white">Inicio</text>
+        <circle cx="25" cy="85" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="110" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="140" font-family="Arial" font-size="14" fill="white">Mi perfil</text>
+        <circle cx="25" cy="135" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="160" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="190" font-family="Arial" font-size="14" fill="white">Registrador APUNAB</text>
+        <circle cx="25" cy="185" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="210" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="240" font-family="Arial" font-size="14" fill="white">Mis actividades</text>
+        <circle cx="25" cy="235" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="260" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="290" font-family="Arial" font-size="14" fill="white">Ranking</text>
+        <circle cx="25" cy="285" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="310" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="340" font-family="Arial" font-size="14" fill="white">Metas</text>
+        <circle cx="25" cy="335" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="360" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="390" font-family="Arial" font-size="14" fill="white">Reportes</text>
+        <circle cx="25" cy="385" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="410" width="200" height="50" fill="#700033"/>
+        <text x="50" y="440" font-family="Arial" font-size="14" fill="white">Configuración</text>
+        <circle cx="25" cy="435" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <!-- Panel de contenido principal -->
+    <rect x="200" y="60" width="824" height="708" fill="white"/>
+    
+    <!-- Título del panel -->
+    <text x="230" y="100" font-family="Arial" font-size="24" font-weight="bold" fill="#8c0040">Configuración</text>
+    
+    <!-- Pestañas -->
+    <rect x="230" y="120" width="150" height="40" rx="4" fill="#8c0040"/>
+    <text x="265" y="145" font-family="Arial" font-size="14" fill="white">Cuenta</text>
+    
+    <rect x="380" y="120" width="150" height="40" rx="4" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="410" y="145" font-family="Arial" font-size="14" fill="#555">Notificaciones</text>
+    
+    <rect x="530" y="120" width="150" height="40" rx="4" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="570" y="145" font-family="Arial" font-size="14" fill="#555">Privacidad</text>
+    
+    <rect x="680" y="120" width="150" height="40" rx="4" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="720" y="145" font-family="Arial" font-size="14" fill="#555">Ayuda</text>
+    
+    <!-- Secciones de configuración de cuenta -->
+    <rect x="230" y="180" width="780" height="500" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    
+    <!-- Configuración de perfil -->
+    <text x="260" y="220" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Información personal</text>
+    
+    <!-- Línea divisoria -->
+    <line x1="260" y1="240" x2="940" y2="240" stroke="#e0e0e0" stroke-width="2"/>
+    
+    <!-- Campo de nombre -->
+    <text x="260" y="270" font-family="Arial" font-size="14" fill="#555">Nombre:</text>
+    <rect x="350" y="250" width="250" height="30" rx="4" fill="white" stroke="#e0e0e0"/>
+    <text x="360" y="270" font-family="Arial" font-size="14" fill="#333">Santiago</text>
+    
+    <!-- Campo de apellido -->
+    <text x="620" y="270" font-family="Arial" font-size="14" fill="#555">Apellido:</text>
+    <rect x="700" y="250" width="250" height="30" rx="4" fill="white" stroke="#e0e0e0"/>
+    <text x="710" y="270" font-family="Arial" font-size="14" fill="#333">Jacome</text>
+    
+    <!-- Campo de correo -->
+    <text x="260" y="320" font-family="Arial" font-size="14" fill="#555">Correo:</text>
+    <rect x="350" y="300" width="600" height="30" rx="4" fill="white" stroke="#e0e0e0"/>
+    <text x="360" y="320" font-family="Arial" font-size="14" fill="#333">santiago.jacome@unab.edu.co</text>
+    
+    <!-- Campo de facultad -->
+    <text x="260" y="370" font-family="Arial" font-size="14" fill="#555">Facultad:</text>
+    <rect x="350" y="350" width="250" height="30" rx="4" fill="white" stroke="#e0e0e0"/>
+    <text x="360" y="370" font-family="Arial" font-size="14" fill="#333">Ingeniería</text>
+    <text x="580" y="370" font-family="Arial" font-size="14" fill="#333">▼</text>
+    
+    <!-- Campo de programa -->
+    <text x="620" y="370" font-family="Arial" font-size="14" fill="#555">Programa:</text>
+    <rect x="700" y="350" width="250" height="30" rx="4" fill="white" stroke="#e0e0e0"/>
+    <text x="710" y="370" font-family="Arial" font-size="14" fill="#333">Ingeniería de Sistemas</text>
+    <text x="930" y="370" font-family="Arial" font-size="14" fill="#333">▼</text>
+    
+    <!-- Campo de semestre -->
+    <text x="260" y="420" font-family="Arial" font-size="14" fill="#555">Semestre:</text>
+    <rect x="350" y="400" width="250" height="30" rx="4" fill="white" stroke="#e0e0e0"/>
+    <text x="360" y="420" font-family="Arial" font-size="14" fill="#333">7</text>
+    <text x="580" y="420" font-family="Arial" font-size="14" fill="#333">▼</text>
+
+    <!-- Campo de intereses -->
+    <text x="260" y="470" font-family="Arial" font-size="14" fill="#555">Intereses:</text>
+    <rect x="350" y="450" width="600" height="70" rx="4" fill="white" stroke="#e0e0e0"/>
+    <text x="360" y="470" font-family="Arial" font-size="14" fill="#333">Desarrollo de software, Inteligencia Artificial, Diseño UX/UI, Voluntariado</text>
+    
+    <!-- Campo de cambio de contraseña -->
+    <text x="260" y="550" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Cambiar contraseña</text>
+    <line x1="260" y1="570" x2="940" y2="570" stroke="#e0e0e0" stroke-width="2"/>
+    
+    <!-- Contraseña actual -->
+    <text x="260" y="600" font-family="Arial" font-size="14" fill="#555">Contraseña actual:</text>
+    <rect x="400" y="580" width="250" height="30" rx="4" fill="white" stroke="#e0e0e0"/>
+    <text x="410" y="600" font-family="Arial" font-size="14" fill="#333">••••••••</text>
+    
+    <!-- Nueva contraseña -->
+    <text x="260" y="650" font-family="Arial" font-size="14" fill="#555">Nueva contraseña:</text>
+    <rect x="400" y="630" width="250" height="30" rx="4" fill="white" stroke="#e0e0e0"/>
+    
+    <!-- Confirmar contraseña -->
+    <text x="670" y="600" font-family="Arial" font-size="14" fill="#555">Confirmar nueva contraseña:</text>
+    <rect x="860" y="580" width="150" height="30" rx="4" fill="white" stroke="#e0e0e0"/>
+    
+    <!-- Botones de acción -->
+    <rect x="700" y="630" width="150" height="40" rx="4" fill="#8c0040"/>
+    <text x="730" y="655" font-family="Arial" font-size="14" fill="white">Guardar</text>
+    
+    <rect x="860" y="630" width="150" height="40" rx="4" fill="#e0e0e0" stroke="#ccc"/>
+    <text x="895" y="655" font-family="Arial" font-size="14" fill="#555">Cancelar</text>
+</svg>
