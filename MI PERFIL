@@ -1,0 +1,176 @@
+<svg viewBox="0 0 1024 768" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fondo principal - using UNAB light background -->
+    <rect width="1024" height="768" fill="#ffffff"/>
+    
+    <!-- Panel superior / Header - using UNAB burgundy -->
+    <rect width="1024" height="60" fill="#8c0040"/>
+    
+    <!-- UNAB Logo (exact version shown in image) -->
+    <g transform="translate(10, 5) scale(0.45)">
+        <!-- Burgundy square background for logo -->
+        <rect width="100" height="100" rx="15" fill="#8c0040"/>
+        <!-- White house/building icon -->
+        <path d="M50,20 L20,40 L80,40 Z" fill="white"/> <!-- Roof -->
+        <rect x="35" y="40" width="30" height="25" fill="white"/> <!-- Building upper -->
+        <rect x="40" y="50" width="8" height="8" rx="4" fill="#8c0040"/> <!-- Window left -->
+        <rect x="52" y="50" width="8" height="8" rx="4" fill="#8c0040"/> <!-- Window right-->
+        <rect x="25" y="65" width="15" height="25" fill="white"/> <!-- Left pillar -->
+        <rect x="60" y="65" width="15" height="25" fill="white"/> <!-- Right pillar -->
+    </g>
+    <!-- "Universidad unab" text next to logo would go here, but using text instead -->
+    <text x="110" y="38" font-family="Arial" font-size="24" font-weight="bold" fill="white">APUTrack</text>
+    <text x="850" y="25" font-family="Arial" font-size="14" fill="white">Usuario: Santiago Jacome</text>
+    <text x="850" y="45" font-family="Arial" font-size="14" fill="white">APUNAB Total: 230</text>
+    <text x="720" y="45" font-family="Arial" font-size="14" fill="white">APUNAB Restantes: 70</text>
+    <rect x="940" y="15" width="70" height="30" rx="4" fill="#63002c" stroke="white"/>
+    <text x="947" y="35" font-family="Arial" font-size="12" fill="white">Cerrar Sesión</text>
+    
+    <!-- Panel de menú lateral - using UNAB burgundy -->
+    <rect x="0" y="60" width="200" height="708" fill="#8c0040"/>
+    
+    <!-- Botones de menú -->
+    <g>
+        <rect x="0" y="60" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="90" font-family="Arial" font-size="14" fill="white">Inicio</text>
+        <circle cx="25" cy="85" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="110" width="200" height="50" fill="#63002c"/>
+        <text x="50" y="140" font-family="Arial" font-size="14" fill="white">Mi Perfil</text>
+        <circle cx="25" cy="135" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="160" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="190" font-family="Arial" font-size="14" fill="white">Registrar APUNAB</text>
+        <circle cx="25" cy="185" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="210" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="240" font-family="Arial" font-size="14" fill="white">Mis Actividades</text>
+        <circle cx="25" cy="235" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="260" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="290" font-family="Arial" font-size="14" fill="white">Ranking</text>
+        <circle cx="25" cy="285" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="310" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="340" font-family="Arial" font-size="14" fill="white">Metas</text>
+        <circle cx="25" cy="335" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="360" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="390" font-family="Arial" font-size="14" fill="white">Reportes</text>
+        <circle cx="25" cy="385" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="410" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="440" font-family="Arial" font-size="14" fill="white">Configuración</text>
+        <circle cx="25" cy="435" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <!-- Panel de contenido principal (Panel de Mi Perfil) -->
+    <rect x="200" y="60" width="824" height="708" fill="white"/>
+    
+    <!-- Título del panel -->
+    <text x="230" y="100" font-family="Arial" font-size="24" font-weight="bold" fill="#8c0040">Mi Perfil</text>
+    
+    <!-- Información del perfil -->
+    <rect x="230" y="120" width="250" height="300" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    
+    <!-- Foto de perfil placeholder -->
+    <circle cx="355" cy="180" r="60" fill="#e0e0e0" stroke="#8c0040" stroke-width="2"/>
+    <path d="M355,150 Q375,150 375,170 Q375,190 355,190 Q335,190 335,170 Q335,150 355,150" fill="#8c0040"/>
+    <path d="M355,190 Q385,190 395,230 Q365,240 355,240 Q345,240 315,230 Q325,190 355,190" fill="#8c0040"/>
+    
+    <text x="355" y="260" font-family="Arial" font-size="18" font-weight="bold" fill="#8c0040" text-anchor="middle">Santiago Jacome</text>
+    <text x="355" y="285" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">Ingeniería de Sistemas</text>
+    <text x="355" y="310" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">Facultad de Ingeniería</text>
+    <text x="355" y="335" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">6° Semestre</text>
+    
+    <rect x="280" y="360" width="150" height="40" rx="4" fill="#8c0040"/>
+    <text x="355" y="385" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Editar Perfil</text>
+    
+    <!-- Estadísticas -->
+    <rect x="500" y="120" width="500" height="200" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="520" y="150" font-family="Arial" font-size="18" font-weight="bold" fill="#8c0040">Estadísticas APUNAB</text>
+    
+    <!-- Gráfico de barras -->
+    <rect x="520" y="170" width="460" height="130" fill="none" stroke="#e0e0e0"/>
+    
+    <!-- Eje Y -->
+    <line x1="520" y1="170" x2="520" y2="300" stroke="#333" stroke-width="1"/>
+    <text x="510" y="175" font-family="Arial" font-size="10" fill="#333" text-anchor="end">100</text>
+    <text x="510" y="205" font-family="Arial" font-size="10" fill="#333" text-anchor="end">75</text>
+    <text x="510" y="235" font-family="Arial" font-size="10" fill="#333" text-anchor="end">50</text>
+    <text x="510" y="265" font-family="Arial" font-size="10" fill="#333" text-anchor="end">25</text>
+    <text x="510" y="295" font-family="Arial" font-size="10" fill="#333" text-anchor="end">0</text>
+    
+    <!-- Barras -->
+    <rect x="550" y="200" width="40" height="100" fill="#8c0040" opacity="0.8"/>
+    <rect x="610" y="170" width="40" height="130" fill="#8c0040" opacity="0.8"/>
+    <rect x="670" y="220" width="40" height="80" fill="#8c0040" opacity="0.8"/>
+    <rect x="730" y="195" width="40" height="105" fill="#8c0040" opacity="0.8"/>
+    <rect x="790" y="230" width="40" height="70" fill="#8c0040" opacity="0.8"/>
+    <rect x="850" y="180" width="40" height="120" fill="#8c0040" opacity="0.8"/>
+    
+    <!-- Eje X -->
+    <line x1="520" y1="300" x2="980" y2="300" stroke="#333" stroke-width="1"/>
+    <text x="570" y="315" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">2022-1</text>
+    <text x="630" y="315" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">2022-2</text>
+    <text x="690" y="315" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">2023-1</text>
+    <text x="750" y="315" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">2023-2</text>
+    <text x="810" y="315" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">2024-1</text>
+    <text x="870" y="315" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">2024-2</text>
+    
+    <!-- Historial de actividades -->
+    <rect x="500" y="340" width="500" height="320" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="520" y="370" font-family="Arial" font-size="18" font-weight="bold" fill="#8c0040">Historial de Actividades</text>
+    
+    <!-- Encabezados de tabla -->
+    <rect x="520" y="390" width="460" height="30" fill="#8c0040"/>
+    <text x="540" y="410" font-family="Arial" font-size="12" fill="white">Actividad</text>
+    <text x="740" y="410" font-family="Arial" font-size="12" fill="white">Fecha</text>
+    <text x="830" y="410" font-family="Arial" font-size="12" fill="white">Tipo</text>
+    <text x="920" y="410" font-family="Arial" font-size="12" fill="white">APUNAB</text>
+    
+    <!-- Filas de tabla -->
+    <rect x="520" y="420" width="460" height="40" fill="#ffffff" stroke="#e0e0e0"/>
+    <text x="540" y="445" font-family="Arial" font-size="12" fill="#333">Seminario de Innovación</text>
+    <text x="740" y="445" font-family="Arial" font-size="12" fill="#333">30/04/2025</text>
+    <text x="830" y="445" font-family="Arial" font-size="12" fill="#333">Académico</text>
+    <text x="920" y="445" font-family="Arial" font-size="12" fill="#333">15</text>
+    
+    <rect x="520" y="460" width="460" height="40" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="540" y="485" font-family="Arial" font-size="12" fill="#333">Voluntariado Ambiental</text>
+    <text x="740" y="485" font-family="Arial" font-size="12" fill="#333">15/04/2025</text>
+    <text x="830" y="485" font-family="Arial" font-size="12" fill="#333">Servicio</text>
+    <text x="920" y="485" font-family="Arial" font-size="12" fill="#333">20</text>
+    
+    <rect x="520" y="500" width="460" height="40" fill="#ffffff" stroke="#e0e0e0"/>
+    <text x="540" y="525" font-family="Arial" font-size="12" fill="#333">Taller de Liderazgo</text>
+    <text x="740" y="525" font-family="Arial" font-size="12" fill="#333">02/04/2025</text>
+    <text x="830" y="525" font-family="Arial" font-size="12" fill="#333">Desarrollo</text>
+    <text x="920" y="525" font-family="Arial" font-size="12" fill="#333">10</text>
+    
+    <rect x="520" y="540" width="460" height="40" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="540" y="565" font-family="Arial" font-size="12" fill="#333">Competencia Deportiva</text>
+    <text x="740" y="565" font-family="Arial" font-size="12" fill="#333">20/03/2025</text>
+    <text x="830" y="565" font-family="Arial" font-size="12" fill="#333">Deportivo</text>
+    <text x="920" y="565" font-family="Arial" font-size="12" fill="#333">25</text>
+    
+    <rect x="520" y="580" width="460" height="40" fill="#ffffff" stroke="#e0e0e0"/>
+    <text x="540" y="605" font-family="Arial" font-size="12" fill="#333">Conferencia Tecnológica</text>
+    <text x="740" y="605" font-family="Arial" font-size="12" fill="#333">05/03/2025</text>
+    <text x="830" y="605" font-family="Arial" font-size="12" fill="#333">Académico</text>
+    <text x="920" y="605" font-family="Arial" font-size="12" fill="#333">15</text>
+    
+    <!--
