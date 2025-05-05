@@ -1,0 +1,161 @@
+<svg viewBox="0 0 1024 768" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fondo principal - using UNAB light background -->
+    <rect width="1024" height="768" fill="#ffffff"/>
+    
+    <!-- Panel superior / Header - using UNAB burgundy -->
+    <rect width="1024" height="60" fill="#8c0040"/>
+    
+    <!-- UNAB Logo (exact version shown in image) -->
+    <g transform="translate(10, 5) scale(0.45)">
+        <!-- Burgundy square background for logo -->
+        <rect width="100" height="100" rx="15" fill="#8c0040"/>
+        <!-- White house/building icon -->
+        <path d="M50,20 L20,40 L80,40 Z" fill="white"/> <!-- Roof -->
+        <rect x="35" y="40" width="30" height="25" fill="white"/> <!-- Building upper -->
+        <rect x="40" y="50" width="8" height="8" rx="4" fill="#8c0040"/> <!-- Window left -->
+        <rect x="52" y="50" width="8" height="8" rx="4" fill="#8c0040"/> <!-- Window right-->
+        <rect x="25" y="65" width="15" height="25" fill="white"/> <!-- Left pillar -->
+        <rect x="60" y="65" width="15" height="25" fill="white"/> <!-- Right pillar -->
+    </g>
+    <!-- "Universidad unab" text next to logo would go here, but using text instead -->
+    <text x="110" y="38" font-family="Arial" font-size="24" font-weight="bold" fill="white">APUTrack</text>
+    <text x="850" y="25" font-family="Arial" font-size="14" fill="white">Usuario: Santiago Jacome</text>
+    <text x="850" y="45" font-family="Arial" font-size="14" fill="white">APUNAB Total: 230</text>
+    <text x="720" y="45" font-family="Arial" font-size="14" fill="white">APUNAB Restantes: 70</text>
+    <rect x="940" y="15" width="70" height="30" rx="4" fill="#63002c" stroke="white"/>
+    <text x="947" y="35" font-family="Arial" font-size="12" fill="white">Cerrar Sesión</text>
+    
+    <!-- Panel de menú lateral - using UNAB burgundy -->
+    <rect x="0" y="60" width="200" height="708" fill="#8c0040"/>
+    
+    <!-- Botones de menú -->
+    <g>
+        <rect x="0" y="60" width="200" height="50" fill="#63002c"/>
+        <text x="50" y="90" font-family="Arial" font-size="14" fill="white">Inicio</text>
+        <circle cx="25" cy="85" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="110" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="140" font-family="Arial" font-size="14" fill="white">Mi Perfil</text>
+        <circle cx="25" cy="135" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="160" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="190" font-family="Arial" font-size="14" fill="white">Registrar APUNAB</text>
+        <circle cx="25" cy="185" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="210" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="240" font-family="Arial" font-size="14" fill="white">Mis Actividades</text>
+        <circle cx="25" cy="235" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="260" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="290" font-family="Arial" font-size="14" fill="white">Ranking</text>
+        <circle cx="25" cy="285" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="310" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="340" font-family="Arial" font-size="14" fill="white">Metas</text>
+        <circle cx="25" cy="335" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="360" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="390" font-family="Arial" font-size="14" fill="white">Reportes</text>
+        <circle cx="25" cy="385" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="410" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="440" font-family="Arial" font-size="14" fill="white">Configuración</text>
+        <circle cx="25" cy="435" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <!-- Panel de contenido principal (Panel de inicio) -->
+    <rect x="200" y="60" width="824" height="708" fill="white"/>
+    
+    <!-- Título del panel -->
+    <text x="230" y="100" font-family="Arial" font-size="24" font-weight="bold" fill="#8c0040">Inicio</text>
+    
+    <!-- Resumen de APUNAB -->
+    <rect x="230" y="120" width="380" height="200" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="250" y="150" font-family="Arial" font-size="18" font-weight="bold" fill="#8c0040">Resumen de APUNAB</text>
+    
+    <!-- Gráfico circular -->
+    <circle cx="340" cy="230" r="60" fill="none" stroke="#8c0040" stroke-width="20" stroke-dasharray="314.16 377" />
+    <text x="325" y="235" font-family="Arial" font-size="20" font-weight="bold" fill="#8c0040">77%</text>
+    <text x="280" y="320" font-family="Arial" font-size="14" fill="#333">APUNAB completados este semestre</text>
+    
+    <!-- Metas recientes -->
+    <rect x="630" y="120" width="380" height="200" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="650" y="150" font-family="Arial" font-size="18" font-weight="bold" fill="#8c0040">Metas recientes</text>
+    
+    <!-- Lista de metas -->
+    <rect x="650" y="170" width="340" height="40" rx="4" fill="#ffffff" stroke="#e0e0e0"/>
+    <text x="660" y="195" font-family="Arial" font-size="14" fill="#333">Completar 100 APUNAB para junio</text>
+    <rect x="940" y="180" width="40" height="8" rx="4" fill="#8c0040"/>
+    <text x="945" y="195" font-family="Arial" font-size="12" fill="#333">80%</text>
+    
+    <rect x="650" y="220" width="340" height="40" rx="4" fill="#ffffff" stroke="#e0e0e0"/>
+    <text x="660" y="245" font-family="Arial" font-size="14" fill="#333">Asistir a 5 eventos ambientales</text>
+    <rect x="940" y="230" width="20" height="8" rx="4" fill="#8c0040"/>
+    <text x="945" y="245" font-family="Arial" font-size="12" fill="#333">40%</text>
+    
+    <rect x="650" y="270" width="340" height="40" rx="4" fill="#ffffff" stroke="#e0e0e0"/>
+    <text x="660" y="295" font-family="Arial" font-size="14" fill="#333">Completar 20 horas en deportes</text>
+    <rect x="940" y="280" width="30" height="8" rx="4" fill="#8c0040"/>
+    <text x="945" y="295" font-family="Arial" font-size="12" fill="#333">60%</text>
+    
+    <!-- Actividades recomendadas -->
+    <text x="230" y="360" font-family="Arial" font-size="18" font-weight="bold" fill="#8c0040">Actividades recomendadas</text>
+    
+    <!-- Tarjetas de actividades -->
+    <rect x="230" y="380" width="250" height="160" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <rect x="230" y="380" width="250" height="80" rx="8" fill="#8c0040" />
+    <text x="250" y="430" font-family="Arial" font-size="14" fill="white" font-weight="bold">Seminario de Ingeniería</text>
+    <text x="250" y="450" font-family="Arial" font-size="12" fill="white">Facultad de Ingeniería</text>
+    <text x="250" y="490" font-family="Arial" font-size="14" fill="#333">15 APUNAB</text>
+    <text x="250" y="510" font-family="Arial" font-size="12" fill="#555">28 de Mayo, 2025</text>
+    <rect x="390" y="510" width="80" height="25" rx="4" fill="#63002c"/>
+    <text x="408" y="526" font-family="Arial" font-size="12" fill="white">Inscribirse</text>
+    
+    <rect x="500" y="380" width="250" height="160" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <rect x="500" y="380" width="250" height="80" rx="8" fill="#8c0040" />
+    <text x="520" y="430" font-family="Arial" font-size="14" fill="white" font-weight="bold">Voluntariado Ambiental</text>
+    <text x="520" y="450" font-family="Arial" font-size="12" fill="white">Parque Metropolitano</text>
+    <text x="520" y="490" font-family="Arial" font-size="14" fill="#333">20 APUNAB</text>
+    <text x="520" y="510" font-family="Arial" font-size="12" fill="#555">30 de Mayo, 2025</text>
+    <rect x="660" y="510" width="80" height="25" rx="4" fill="#63002c"/>
+    <text x="678" y="526" font-family="Arial" font-size="12" fill="white">Inscribirse</text>
+    
+    <rect x="770" y="380" width="250" height="160" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <rect x="770" y="380" width="250" height="80" rx="8" fill="#8c0040" />
+    <text x="790" y="430" font-family="Arial" font-size="14" fill="white" font-weight="bold">Taller de Liderazgo</text>
+    <text x="790" y="450" font-family="Arial" font-size="12" fill="white">Auditorio Principal</text>
+    <text x="790" y="490" font-family="Arial" font-size="14" fill="#333">10 APUNAB</text>
+    <text x="790" y="510" font-family="Arial" font-size="12" fill="#555">5 de Junio, 2025</text>
+    <rect x="930" y="510" width="80" height="25" rx="4" fill="#63002c"/>
+    <text x="948" y="526" font-family="Arial" font-size="12" fill="white">Inscribirse</text>
+    
+    <!-- Notificaciones recientes -->
+    <text x="230" y="580" font-family="Arial" font-size="18" font-weight="bold" fill="#8c0040">Notificaciones recientes</text>
+    
+    <!-- Lista de notificaciones -->
+    <rect x="230" y="600" width="780" height="50" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <circle cx="260" cy="625" r="15" fill="#63002c"/>
+    <text x="260" y="630" font-family="Arial" font-size="12" fill="white" text-anchor="middle">!</text>
+    <text x="290" y="625" font-family="Arial" font-size="14" fill="#333">¡Meta próxima a vencer! Solo quedan 3 días para completar "Asistir a 5 eventos ambientales"</text>
+    <text x="950" y="625" font-family="Arial" font-size="12" fill="#777">Hoy, 13:45</text>
+    
+    <rect x="230" y="660" width="780" height="50" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <circle cx="260" cy="685" r="15" fill="#8c0040"/>
+    <text x="260" y="690" font-family="Arial" font-size="12" fill="white" text-anchor="middle">i</text>
+    <text x="290" y="685" font-family="Arial" font-size="14" fill="#333">Nueva actividad disponible: "Conferencia de Innovación Tecnológica" - 25 APUNAB</text>
+    <text x="950" y="685" font-family="Arial" font-size="12" fill="#777">Ayer, 09:30</text>
+</svg>
