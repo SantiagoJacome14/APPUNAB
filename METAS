@@ -1,0 +1,161 @@
+<svg viewBox="0 0 1024 768" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fondo principal - usando fondo claro UNAB -->
+    <rect width="1024" height="768" fill="#ffffff"/>
+    
+    <!-- Panel superior / Encabezado - usando color nuevo #8c0040 -->
+    <rect width="1024" height="60" fill="#8c0040"/>
+    
+    <!-- Logotipo de la UNAB (versión exacta mostrada en la imagen) -->
+    <g transform="translate(10, 5) scale(0.45)">
+        <!-- Fondo cuadrado para logotipo -->
+        <rect width="100" height="100" rx="15" fill="#8c0040"/>
+        <!-- Icono de casa/edificio blanco -->
+        <path d="M50,20 L20,40 L80,40 Z" fill="white"/> <!-- Techo -->
+        <rect x="35" y="40" width="30" height="25" fill="white"/> <!-- Edificio superior -->
+        <rect x="40" y="50" width="8" height="8" rx="4" fill="#8c0040"/> <!-- Ventana izquierda -->
+        <rect x="52" y="50" width="8" height="8" rx="4" fill="#8c0040"/> <!-- Ventana derecha-->
+        <rect x="25" y="65" width="15" height="25" fill="white"/> <!-- Pilar izquierdo -->
+        <rect x="60" y="65" width="15" height="25" fill="white"/> <!-- Pilar derecho -->
+    </g>
+    
+    <!-- Texto del encabezado -->
+    <text x="110" y="38" font-family="Arial" font-size="24" font-weight="bold" fill="white">APUTrack</text>
+    <text x="850" y="25" font-family="Arial" font-size="14" fill="white">Usuario: Santiago Jacome</text>
+    <text x="850" y="45" font-family="Arial" font-size="14" fill="white">APUNAB Total: 230</text>
+    <text x="720" y="45" font-family="Arial" font-size="14" fill="white">APUNAB Restantes: 70</text>
+    <rect x="940" y="15" width="70" height="30" rx="4" fill="#8c0040" stroke="white"/>
+    <text x="947" y="35" font-family="Arial" font-size="12" fill="white">Cerrar sesión</text>
+    
+    <!-- Panel de menú lateral - usando nuevo color #8c0040 -->
+    <rect x="0" y="60" width="200" height="708" fill="#8c0040"/>
+    
+    <!-- Botones de menú -->
+    <g>
+        <rect x="0" y="60" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="90" font-family="Arial" font-size="14" fill="white">Inicio</text>
+        <circle cx="25" cy="85" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="110" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="140" font-family="Arial" font-size="14" fill="white">Mi perfil</text>
+        <circle cx="25" cy="135" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="160" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="190" font-family="Arial" font-size="14" fill="white">Registrador APUNAB</text>
+        <circle cx="25" cy="185" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="210" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="240" font-family="Arial" font-size="14" fill="white">Mis actividades</text>
+        <circle cx="25" cy="235" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="260" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="290" font-family="Arial" font-size="14" fill="white">Ranking</text>
+        <circle cx="25" cy="285" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="310" width="200" height="50" fill="#700033"/>
+        <text x="50" y="340" font-family="Arial" font-size="14" fill="white">Metas</text>
+        <circle cx="25" cy="335" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="360" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="390" font-family="Arial" font-size="14" fill="white">Reportes</text>
+        <circle cx="25" cy="385" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <g>
+        <rect x="0" y="410" width="200" height="50" fill="#8c0040"/>
+        <text x="50" y="440" font-family="Arial" font-size="14" fill="white">Configuración</text>
+        <circle cx="25" cy="435" r="12" fill="white" opacity="0.8"/>
+    </g>
+    
+    <!-- Panel de contenido principal -->
+    <rect x="200" y="60" width="824" height="708" fill="white"/>
+    
+    <!-- Título del panel -->
+    <text x="230" y="100" font-family="Arial" font-size="24" font-weight="bold" fill="#8c0040">Mis Metas</text>
+    
+    <!-- Resumen de progreso -->
+    <rect x="230" y="120" width="370" height="130" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="250" y="150" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Progreso semestral</text>
+    
+    <!-- Barra de progreso total -->
+    <rect x="250" y="170" width="330" height="20" rx="10" fill="#e0e0e0"/>
+    <rect x="250" y="170" width="230" height="20" rx="10" fill="#8c0040"/>
+    <text x="250" y="205" font-family="Arial" font-size="14" fill="#333">230 de 300 APUNAB (77%)</text>
+    <text x="250" y="225" font-family="Arial" font-size="12" fill="#555">Fecha límite: 30 de julio de 2025</text>
+    
+    <!-- Gráfico de progreso mensual -->
+    <rect x="620" y="120" width="370" height="130" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="640" y="150" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Progreso mensual</text>
+    
+    <!-- Gráfico simple de barras -->
+    <line x1="640" y1="210" x2="940" y2="210" stroke="#e0e0e0" stroke-width="1"/>
+    <rect x="660" y="180" width="30" height="30" fill="#8c0040"/>
+    <rect x="710" y="170" width="30" height="40" fill="#8c0040"/>
+    <rect x="760" y="160" width="30" height="50" fill="#8c0040"/>
+    <rect x="810" y="190" width="30" height="20" fill="#8c0040"/>
+    <rect x="860" y="175" width="30" height="35" fill="#8c0040"/>
+    <rect x="910" y="185" width="30" height="25" fill="#8c0040"/>
+    
+    <text x="660" y="225" font-family="Arial" font-size="10" fill="#333">Ene</text>
+    <text x="710" y="225" font-family="Arial" font-size="10" fill="#333">Feb</text>
+    <text x="760" y="225" font-family="Arial" font-size="10" fill="#333">Mar</text>
+    <text x="810" y="225" font-family="Arial" font-size="10" fill="#333">Abr</text>
+    <text x="860" y="225" font-family="Arial" font-size="10" fill="#333">May</text>
+    <text x="910" y="225" font-family="Arial" font-size="10" fill="#333">Jun</text>
+    
+    <!-- Botón para crear meta -->
+    <rect x="850" y="270" width="140" height="40" rx="4" fill="#8c0040"/>
+    <text x="875" y="295" font-family="Arial" font-size="14" fill="white">+ Nueva meta</text>
+    
+    <!-- Pestañas -->
+    <rect x="230" y="270" width="180" height="40" rx="4" fill="#8c0040"/>
+    <text x="270" y="295" font-family="Arial" font-size="14" fill="white">Activas</text>
+    
+    <rect x="410" y="270" width="180" height="40" rx="4" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="445" y="295" font-family="Arial" font-size="14" fill="#555">Completadas</text>
+    
+    <!-- Lista de metas activas -->
+    <rect x="230" y="330" width="780" height="100" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="250" y="360" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Alcanzar 300 APUNAB este semestre</text>
+    <text x="250" y="385" font-family="Arial" font-size="14" fill="#555">Meta semestral | Vence: 30/07/2025</text>
+    
+    <!-- Barra de progreso -->
+    <rect x="250" y="400" width="500" height="10" rx="5" fill="#e0e0e0"/>
+    <rect x="250" y="400" width="385" height="10" rx="5" fill="#8c0040"/>
+    <text x="760" y="410" font-family="Arial" font-size="14" fill="#333">77%</text>
+    
+    <rect x="230" y="450" width="780" height="100" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="250" y="480" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Completar 5 actividades de voluntariado</text>
+    <text x="250" y="505" font-family="Arial" font-size="14" fill="#555">Meta personal | Vence: 15/06/2025</text>
+    
+    <!-- Barra de progreso -->
+    <rect x="250" y="520" width="500" height="10" rx="5" fill="#e0e0e0"/>
+    <rect x="250" y="520" width="300" height="10" rx="5" fill="#4caf50"/>
+    <text x="760" y="530" font-family="Arial" font-size="14" fill="#333">60%</text>
+    
+    <rect x="230" y="570" width="780" height="100" rx="8" fill="#f6f6f6" stroke="#e0e0e0"/>
+    <text x="250" y="600" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Entrar al top 3 del ranking</text>
+    <text x="250" y="625" font-family="Arial" font-size="14" fill="#555">Meta de competencia | Vence: 30/07/2025</text>
+    
+    <!-- Barra de progreso -->
+    <rect x="250" y="640" width="500" height="10" rx="5" fill="#e0e0e0"/>
+    <rect x="250" y="640" width="200" height="10" rx="5" fill="#2196f3"/>
+    <text x="760" y="650" font-family="Arial" font-size="14" fill="#333">40%</text>
+    
+    <!-- Sección de análisis de metas -->
+    <rect x="230" y="690" width="780" height="60" rx="8" fill="#f8f8f8" stroke="#e0e0e0"/>
+    <text x="250" y="725" font-family="Arial" font-size="14" fill="#555">Tienes 3 metas activas y 2 completadas. ¡Sigue así!</text>
+    <rect x="750" y="705" width="230" height="30" rx="15" fill="#8c0040"/>
+    <text x="780" y="725" font-family="Arial" font-size="14" fill="white">Ver análisis detallado</text>
+</svg>
